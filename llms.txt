@@ -1,0 +1,20 @@
+# Abdul Wahab
+
+> AI-powered full-stack and mobile app developer and engineering lead. Works as a one-person product team: design, websites, iOS and Android apps, backends, AWS cloud, data and AI features. 10+ years in production across e-commerce, grocery delivery and logistics. Remote from Pakistan (UTC+5), working with teams worldwide.
+
+## Highlights
+- Engineering Lead at GrocerApp (2026–present): led the full redesign of the website, iOS app and Android app; upgraded Laravel across all backend codebases; cut monthly AWS cost 68% ($2,500 to $800).
+- Senior Software Engineer at DeftShip (2022–2026): scaled a shipping platform to 100,000 orders/day at peak; integrated 15+ e-commerce marketplaces.
+- Team Lead at GrocerApp (2021–2022): led a team of 6 across Android, iOS, backend and DevOps.
+- Uses AI tools (Claude Code, Claude API, MCP) in daily engineering work; built an Urdu voice-ordering flow with Whisper and the Claude API.
+- Upwork Top Rated: 5.0 rating, 100% job success, 3,500+ hours.
+
+## Open to
+- CTO, Head of Engineering and Lead Full-Stack roles
+- End-to-end product builds (design, web, mobile, backend, cloud)
+
+## Links
+- Portfolio and contact: https://abdulwahabkhan1.github.io/
+- LinkedIn: https://www.linkedin.com/in/abdulwahabcomsian/
+- GitHub: https://github.com/abdulwahabkhan1
+- Upwork: https://www.upwork.com/freelancers/~01bfe8b953dc805d34

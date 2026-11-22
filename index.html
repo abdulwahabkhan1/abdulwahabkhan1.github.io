@@ -3,12 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Wahab — Engineering Lead · Web, iOS, Android, Backend &amp; Cloud</title>
-    <meta name="description" content="One engineer, a full product team: design, web, iOS and Android apps, Laravel backends, AWS, data, and AI. Engineering Lead with 10+ years shipping production platforms in e-commerce, grocery delivery, and logistics.">
-    <meta name="keywords" content="Abdul Wahab, Engineering Lead, Full-Stack Architect, iOS Developer, Android Developer, React Native, Mobile App Developer, Head of Engineering, CTO, Laravel, PHP, Vue.js, React, AWS, AI Engineering, Claude API, E-Commerce, Logistics">
-    <meta property="og:title" content="Abdul Wahab — One Engineer, a Full Product Team">
-    <meta property="og:description" content="Design, web, iOS and Android apps, backend, cloud, data, and AI — 10+ years shipping complete products end to end.">
-    <meta property="og:type" content="website">
+    <title>Abdul Wahab | Full-Stack &amp; Mobile App Developer · Engineering Lead (Laravel, iOS, Android, AWS)</title>
+    <meta name="description" content="Abdul Wahab is a full-stack and mobile app developer and engineering lead. He builds websites, iOS and Android apps, Laravel backends and AWS infrastructure. Available remotely.">
+    <meta name="keywords" content="Abdul Wahab, full-stack developer, mobile app developer, iOS app developer, Android app developer, React Native developer, Laravel developer, PHP developer, Vue.js, React, AWS, engineering lead, head of engineering, CTO, remote developer Pakistan, e-commerce, logistics, AI engineering">
+    <meta property="og:title" content="Abdul Wahab: Full-Stack &amp; Mobile App Developer, Engineering Lead">
+    <meta property="og:description" content="I design, build and launch complete products: websites, iOS and Android apps, backends and cloud. 10+ years and an engineering lead.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://abdulwahabkhan1.github.io/">
+    <meta property="og:site_name" content="Abdul Wahab">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Abdul Wahab: Full-Stack &amp; Mobile App Developer, Engineering Lead">
+    <meta name="twitter:description" content="Websites, iOS and Android apps, backends and cloud, designed, built and launched by one engineer.">
+    <meta name="author" content="Abdul Wahab">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0f1c">
+    <link rel="canonical" href="https://abdulwahabkhan1.github.io/">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abdul Wahab",
+  "jobTitle": "Engineering Lead · Full-Stack & Mobile App Developer",
+  "url": "https://abdulwahabkhan1.github.io/",
+  "email": "mailto:abdulwahabcomsian@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "PK"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "COMSATS Institute of Information Technology"
+  },
+  "knowsAbout": [
+    "Full-stack development",
+    "iOS app development",
+    "Android app development",
+    "React Native",
+    "Laravel",
+    "PHP",
+    "Vue.js",
+    "React",
+    "AWS",
+    "MySQL",
+    "PostgreSQL",
+    "AI engineering",
+    "E-commerce integrations",
+    "Engineering leadership"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/abdulwahabcomsian/",
+    "https://github.com/abdulwahabkhan1",
+    "https://www.upwork.com/freelancers/~01bfe8b953dc805d34"
+  ]
+}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -144,7 +192,7 @@
         .btn-outline:hover { border-color: var(--accent); color: var(--accent-light); transform: translateY(-2px); }
 
         .hero-stats {
-            display: flex; flex-wrap: wrap; gap: 28px 36px; padding-top: 32px;
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding-top: 0;
             border-top: 1px solid var(--border);
         }
         .hero-stat h3 {
@@ -366,6 +414,16 @@
         .role-card p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px; flex: 1; }
         @media (max-width: 1024px) { .roles-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .roles-grid { grid-template-columns: 1fr; } }
+        .hero-name { font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 14px; }
+        .hero-name strong { color: var(--text-primary); font-weight: 700; }
+        .hero-proof-label {
+            padding-top: 28px; border-top: 1px solid var(--border); margin-bottom: 16px;
+            font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;
+        }
+        .hero-stats { border-top: none !important; }
+        .hero-stat h3 span { font-size: 0.95rem; font-weight: 600; }
+        .hero .hero-stat p { text-transform: none; letter-spacing: 0; font-size: 0.82rem; line-height: 1.45; color: var(--text-secondary); margin-top: 6px; }
+        @media (max-width: 768px) { .hero-stats { grid-template-columns: repeat(2, 1fr) !important; gap: 20px !important; } }
     </style>
 </head>
 <body>
@@ -397,11 +455,12 @@
             <div class="hero-badge">
                 <span class="dot"></span> Open to CTO, Head of Engineering &amp; Lead Full-Stack roles
             </div>
+            <p class="hero-name">Hi, I'm <strong>Abdul Wahab</strong>: a full-stack &amp; mobile app developer and engineering lead.</p>
             <h1>
                 One engineer. <span class="gradient">Your whole product team.</span>
             </h1>
             <p class="hero-sub">
-                I design, build, and ship complete products — web apps, iOS and Android apps, Laravel backends, AWS infrastructure, and AI features — and I've led the teams that run them. 10+ years in production across e-commerce, grocery delivery, and logistics. Most recently I led GrocerApp's full redesign across Web, Android, and iOS, upgraded every backend codebase, and cut AWS spend 68%.
+                I design, build, and launch complete digital products on my own: websites, iPhone and Android apps, the backend systems behind them, and the cloud they run on. I've spent 10+ years doing this for e-commerce, grocery delivery, and logistics companies, and I've led the engineering teams behind them.
             </p>
             <div class="hero-platforms">
                 <span>🎨 Design</span><span>💻 Web</span><span>📱 iOS</span><span>🤖 Android</span><span>⚙️ Backend</span><span>☁️ Cloud</span><span>📊 Data</span><span>🧠 AI</span>
@@ -416,22 +475,23 @@
                     View Projects
                 </a>
             </div>
+            <p class="hero-proof-label">A few results from recent work</p>
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <h3>10<span>+</span></h3>
-                    <p>Years</p>
+                    <h3>10+<span> years</span></h3>
+                    <p>building software that real customers use every day</p>
                 </div>
                 <div class="hero-stat">
-                    <h3>68<span>%</span></h3>
-                    <p>AWS Cost Cut</p>
+                    <h3>3<span> apps</span></h3>
+                    <p>GrocerApp's website, iOS app and Android app: I led the full redesign and launch</p>
                 </div>
                 <div class="hero-stat">
-                    <h3>100K<span>+</span></h3>
-                    <p>Orders / Day</p>
+                    <h3>100K<span> orders/day</span></h3>
+                    <p>processed at peak by a shipping platform I helped scale</p>
                 </div>
                 <div class="hero-stat">
-                    <h3>15<span>+</span></h3>
-                    <p>Integrations</p>
+                    <h3>68%<span> lower</span></h3>
+                    <p>monthly cloud hosting bill after I restructured GrocerApp's AWS setup</p>
                 </div>
             </div>
         </div>
@@ -441,56 +501,56 @@
 <!-- WHAT I DO -->
 <section class="roles" id="what-i-do">
     <div class="container">
-        <p class="section-label fade-in">// One-Person Team</p>
+        <p class="section-label fade-in">// What I Do</p>
         <h2 class="section-title fade-in">A full product team in one engineer</h2>
-        <p class="section-desc fade-in">From the first screen design to the App Store release and the AWS bill: design, web, mobile, backend, cloud, data, AI, and the leadership to run it. Every role below comes from shipped, production work.</p>
+        <p class="section-desc fade-in">Building a product usually takes a designer, web and mobile developers, a backend engineer, someone to run the servers, and a lead to tie it all together. I cover each of these roles myself, and every one is backed by work I've shipped to production.</p>
         <div class="roles-grid">
             <div class="role-card fade-in">
                 <div class="role-icon">🎨</div>
                 <h3>Product &amp; UX Design</h3>
-                <p>Took GrocerApp's new unified design language from home-page concept to production. Designed Frontline Ticketing's campaign-builder UX.</p>
+                <p>Screens and user flows that look good and are easy to use. I took GrocerApp's new design from one home-page concept to every screen of its website and mobile apps.</p>
                 <div class="project-platforms"><span>Design Systems</span><span>UX Flows</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">💻</div>
                 <h3>Web Frontend</h3>
-                <p>Customer web apps, admin consoles, and merchant dashboards in Vue.js and React. Rebuilt GrocerApp's customer web app on the new design.</p>
+                <p>Fast, responsive websites and web apps, from customer-facing storefronts to internal admin dashboards. I build them with Vue.js and React.</p>
                 <div class="project-platforms"><span>Vue.js</span><span>React</span><span>TypeScript</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">📱</div>
                 <h3>iOS &amp; Android Apps</h3>
-                <p>Redesigned and shipped GrocerApp's iOS and Android apps to the App Store and Google Play. React Native app for BlackArrow.</p>
+                <p>iPhone and Android apps, built and published on the App Store and Google Play. I redesigned and launched GrocerApp's apps and built BlackArrow's app in React Native.</p>
                 <div class="project-platforms"><span>iOS</span><span>Android</span><span>React Native</span><span>Store Releases</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">⚙️</div>
                 <h3>Backend &amp; APIs</h3>
-                <p>Laravel 6–13 and PHP 8 platforms, REST and GraphQL APIs, and 15+ marketplace integrations with OAuth and webhook pipelines.</p>
+                <p>The servers, databases, and integrations that power your product. I've connected platforms to 15+ marketplaces, including Shopify, TikTok Shop, and Walmart.</p>
                 <div class="project-platforms"><span>Laravel</span><span>PHP 8</span><span>GraphQL</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">☁️</div>
                 <h3>Cloud &amp; DevOps</h3>
-                <p>AWS architecture, Forge deployments, and zero-downtime releases. Cut GrocerApp's AWS bill 68% and patched a security advisory the same day.</p>
+                <p>Reliable hosting and automatic deployments, with updates that don't take your site down. I cut GrocerApp's AWS bill from $2,500 to $800 a month.</p>
                 <div class="project-platforms"><span>AWS</span><span>Forge</span><span>CI/CD</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">📊</div>
                 <h3>Data &amp; Reporting</h3>
-                <p>MySQL engine upgrades on RDS, query tuning, and an in-house Laravel reporting platform that replaced Redash.</p>
+                <p>Dashboards and reports your business team can run without waiting on engineers. I replaced GrocerApp's third-party reporting tool with an in-house one.</p>
                 <div class="project-platforms"><span>MySQL 8</span><span>PostgreSQL</span><span>BI</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">🧠</div>
                 <h3>AI Engineering</h3>
-                <p>Urdu voice ordering with Whisper and the Claude API. Claude Code with AI-ready runbooks for large upgrades and refactors.</p>
+                <p>Practical AI features that save people time. I designed an Urdu voice-ordering flow that turns a spoken request into a grocery order.</p>
                 <div class="project-platforms"><span>Claude API</span><span>MCP</span><span>Whisper</span></div>
             </div>
             <div class="role-card fade-in">
                 <div class="role-icon">🧭</div>
                 <h3>Engineering Leadership</h3>
-                <p>Led a 6-person team across Android, iOS, backend, and DevOps. I own roadmaps, cloud cost, security, and reporting to leadership.</p>
+                <p>Someone to plan the roadmap, run the team, and keep leadership informed. I've led a team of 6 across mobile, backend, and DevOps.</p>
                 <div class="project-platforms"><span>Roadmaps</span><span>FinOps</span><span>Mentoring</span></div>
             </div>
         </div>
